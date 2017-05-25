@@ -1,0 +1,317 @@
+<html>
+<head>
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/black.css">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script>
+	$(document).ready(function() {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>
+
+<style>
+body {
+	background-image:
+		url(http://st.gdefon.com/wallpapers_original/426614_more_noch_luna_korabl_lyudi_1680x1050_www.Gde-Fon.com.jpg);
+	background-attachment: fixed; /*para que sea estático*/
+	background-position: bottom center; /*arriba a la derecha*/
+	background-repeat: no-repeat; /*que no se repita el fondo*/
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.reveal h3, p {
+	color: #e6e6e6;
+}
+
+.reveal h1, h6 {
+	color: #e6e6e6;
+}
+</style>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">ProyectosIngenia</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#inicio">Inicio</a></li>
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">¿A quién le toca hoy? <span
+						class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#descripcion">Descripción</a></li>
+						<li><a href="#organizacion">Organización</a></li>
+						<li><a href="#bd">Base de datos</a></li>
+						<li><a href="#apariencia">Apariencia CSS</a></li>
+					</ul></li>
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">La noche en blanco<span
+						class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#eventos">Añadir eventos</a></li>
+						<li><a href="#testeoapp">Testeo aplicación</a></li>
+						<li><a href="#notificaciones">Testeo de notificaciones</a></li>
+
+					</ul></li>
+
+			</ul>
+		</div>
+	</nav>
+	<div class="reveal">
+		<div class="slides">
+
+			<section id="inicio">
+				<h1>Presentación sobre Ingenia</h1>
+
+			</section>
+			<section>
+				<font size="4"><p style="text-align: center">En 1972 tres
+						de los mejores hombres del ejercito americano que formaban un
+						comando, fueron encarcelados por un delito que no habían cometido,
+						no tardaron en fugarse de la prisión en la que se encontraban
+						recluidos, hoy buscados todavía por el gobierno sobreviven como
+						soldados de fortuna, si usted tiene algún problema y se los
+						encuentra quizá pueda contratarlos</p></font>
+				<div class="row">
+					<div class="col-sm-4">
+
+						<br> <a href="#demo" data-toggle="collapse"> <img
+							src="img/Raul.jpg" class="img-circle person" alt="Random Name"
+							width="150" height="150">
+						</a>
+						<div id="demo" class="collapse">
+							<font size="5"><p>Raúl Martín</p></font> <font size="5"><p>Winter
+									is coming</p></font>
+						</div>
+					</div>
+					<div class="col-sm-4">
+
+						<br> <a href="#demo2" data-toggle="collapse"> <img
+							src="img/josemi.jpg" class="img-circle person" alt="Random Name"
+							width="150" height="150">
+						</a>
+						<div id="demo2" class="collapse">
+							<font size="5"><p>Jose Miguel Martín</p></font> <font size="5"><p>
+									¡Multiplicate por cero!</p></font> <font size="5"></font>
+						</div>
+					</div>
+					<div class="col-sm-4">
+
+						<br> <a href="#demo3" data-toggle="collapse"> <img
+							src="img/Pepro.png" class="img-circle person" alt="Random Name"
+							width="140" height="150">
+						</a>
+						<div id="demo3" class="collapse">
+							<font size="5"><p>Pedro Jimenez</p></font> <font size="5"><p>Yo
+									seré el próximo rey de los piratas</p></font>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+
+			<section id="ingenia">
+				<section>
+					<div class="col-sm-6">
+						<br> <a href="#out" data-toggle="collapse"> <img
+							style="width: 450px" src="img/fotoIngenia.jpg">
+						</a>
+						<div id="out" class="collapse">
+							<font size="5"><p>Delante de la empresa</p></font>
+						</div>
+					</div>
+					<div class="col-sm-6">
+
+						<br> <a href="#working" data-toggle="collapse"> <img
+							style="width: 450px" src="img/trabajando.jpg">
+						</a>
+						<div id="working" class="collapse">
+							<font size="5"><p>Trabajando</p></font> 
+					</div>
+
+					<font size="4"><p></p></font>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h3>Proyectos realizados</h3>
+				</section>
+				<section id="aquienletocahoy">
+					<h3>1 - ¿A quién le toca hoy?</h3>
+				</section>
+
+
+				<section id="descripcion">
+					<h6>¿Para qué sirve este programa?</h6>
+					<font size="4"><p>La función de este programa es
+							mediante la anotación de cuántas veces ha ido como conductor o
+							pasajero un determinado grupo de personas, mostrar la prioridad
+							de quién debería ir como conductor o pasajero, por ejemplo si
+							alguien ha ido muchas veces como pasajero y nunca como conductor
+							se pondrá primero en la tabla</p></font> <a target="_blank"
+						href="http://localhost:8080/ProyectoFP/MainServlet?action=main"><img
+						style="width: 400px" src="img/ProyectoMenu.png"></a>
+
+				</section>
+
+				<section>
+					<h3>Versiones</h3>
+				</section>
+				<section id="organizacion">
+					<div class="row">
+						<div class="col-sm-6">
+							<h3>Antigua organización</h3>
+
+							<a target="_blank"
+								href="https://github.com/josemiguex/AQuienLeTocaHoy-VersionAntigua-MySQL/tree/master/ProyectoFP/src/es/ingenia/proyectofp"><img
+								class="img-rounded" style="width: 150px" src="img/Servlets.png"></a><br />
+							<font size="4"><p>Se utilizan varios servlets para
+									realizar las funciones</p></font>
+						</div>
+						<div class="col-sm-6">
+							<h3>Nueva organización</h3>
+
+							<a target="_blank"
+								href="https://github.com/josemiguex/AquienLeTocaHoy-MySQL/blob/master/ProyectoFP/src/es/ingenia/proyectofp/MainServlet.java"><img
+								class="img-rounded" style="width: 350px" src="img/Switch.png"></a><br />
+							<font size="4"><p>Un solo servlet que redirige y llama
+									a las clases para realizar las funciones</p></font>
+						</div>
+					</div>
+				</section>
+				<section id="bd">
+					<div class="row">
+						<div class="col-sm-6">
+							<h3>Base de datos MySQL</h3>
+
+							<a target="_blank"
+								href="https://github.com/josemiguex/AquienLeTocaHoy-MySQL/blob/master/ProyectoFP/src/es/ingenia/proyectofp/OrganizacionBD.java"><img
+								class="img-rounded" src="img/mysql.png"></a><br />
+						</div>
+						<div class="col-sm-6">
+							<h3>Base de datos PostgreSQL</h3>
+
+							<a target="_blank"
+								href="https://github.com/josemiguex/AquienLeTocaHoy-PostgreSQL/blob/master/ProyectoFP/src/es/ingenia/proyectofp/OrganizacionBD.java"><img
+								class="img-rounded" style="width: 350px" src="img/postgre.png"></a><br />
+						</div>
+					</div>
+				</section>
+				<section id="apariencia">
+					<div class="row">
+						<div class="col-sm-6">
+							<h3>Versión con materialize</h3>
+
+							<a target="_blank"
+								href="https://github.com/josemiguex/AquienLeTocaHoy-MySQL/tree/master/ProyectoFP"><img
+								class="img-rounded" style="width: 350px"
+								src="img/AdministracionMat.png"></a><br />
+						</div>
+						<div class="col-sm-6">
+							<h3>Versión con bootstrap</h3>
+
+							<a target="_blank"
+								href="https://github.com/josemiguex/AquienLeTocaHoy-PostgreSQL-Bootstrap/tree/master/ProyectoFP"><img
+								class="img-rounded" style="width: 350px"
+								src="img/AdministracionBoots.png"></a><br />
+						</div>
+					</div>
+				</section>
+			</section>
+			<section id="testeoLNEB">
+				<section>
+					<h3>La Noche en Blanco</h3>
+				</section>
+				<section>
+					<h6>En este periodo nuestro responsable pasó a ser el jefe del
+						proyecto de la aplicación y nos unimos a dos compañeros que están
+						de practica</h6>
+				</section>
+				<section id="eventos">
+					<h3>Añadir eventos</h3>
+					<font size="5"><p>En la página de PubliKT estuvimos
+							añadiendo los distintos eventos de la noche en blanco a partir de
+							un excel que nos mandaron, cada evento tenía su título,
+							descripción (incluyendo forma de inscripción, entrada, aforo,
+							sesiones), lugar y horario</p>
+						<p>
+							Estos eventos se mostrarán posteriormente en la aplicación de <i>La
+								Noche En Blanco</i>
+						</p></font> <img class="img-rounded" style="width: 500px"
+						src="img/CapturaEventos.png">
+				</section>
+				<section id="testeoapp">
+					<h3>Testeo de la aplicación</h3>
+					<font size="5"><p>Realizamos una serie de pruebas en la
+							aplicación con nuestros móviles y de la empresa, reportando los
+							errores que encontrasemos</p></font><img
+						style="width: 200px; float: left; margin-left: 4em"
+						class="img-rounded" src="img/PantallaCarga.png"><img
+						style="float: right; margin-right: 4em; width: 200px;"
+						class="img-rounded" src="img/PantallaEvento.png">
+
+				</section>
+				<section id="notificaciones">
+					<h3>Testeo de notificaciones</h3>
+					<font size="5"><p>Nos dieron una página para enviar
+							notificaciones y comprobar que no se den errores a la hora de
+							recibir las notificaciones.</p>
+						<p></p></font> <img class="img-rounded" style="width: 250px"
+						src="img/LockScreen.png">
+				</section>
+			</section>
+
+		</div>
+	</div>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies : [ {
+				src : 'plugin/markdown/marked.js'
+			}, {
+				src : 'plugin/markdown/markdown.js'
+			}, {
+				src : 'plugin/notes/notes.js',
+				async : true
+			}, {
+				src : 'plugin/highlight/highlight.js',
+				async : true,
+				callback : function() {
+					hljs.initHighlightingOnLoad();
+				}
+			} ]
+		});
+
+		Reveal.addEventListener('fragmentshown', function(event) {
+			document.getElementById("postfragment").style.color = "red";
+		});
+	</script>
+
+</body>
+</html>
